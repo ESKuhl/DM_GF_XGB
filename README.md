@@ -1,7 +1,7 @@
 ## Index
 
-- [Gap filling in Python for dendrometers]
-  - [Index](#index)
+- [DendroMeter Gap Filling with Extreme Gradient Boosting]
+  
   - [Requirements](#requirements)
   - [Functions](#content)
 
