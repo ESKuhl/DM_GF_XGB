@@ -28,6 +28,12 @@ Data should be cleaned and the zero-growth model (Zweifel et al. 2016, Knüsel e
 
 Note: the temporal variables should have consecutive data and NO missing values or NAs. the 'Label' should include the NAs, where data gaps are. 
 
+---
+
+## Functions
+
+### Data Preparation 
+
 #### Function1  `create_df_csv`
 
 - Description: reads csv files with any kind of separator 
