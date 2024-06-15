@@ -3,15 +3,8 @@
 - [Gap filling in Python for dendrometers]
   - [Index](#index)
   - [Requirements](#requirements)
-  - [Current Version](#current-version)
-  - [Installation](#installation)
-  - [Content](#content)
-    - [Data Preparation](#datapreparation)
-      - [Function1](#function)
-    - [Modeling](#modeling)
-      - [Function](#function)
-    - [Filling the gaps](#fillingthegaps)
-  - [Citation](#citation)
+  - [Functions](#content)
+
 
 ---
 
