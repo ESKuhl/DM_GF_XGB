@@ -1,7 +1,5 @@
-## Index
+## DendroMeter Gap Filling with Extreme Gradient Boosting
 
-- [DendroMeter Gap Filling with Extreme Gradient Boosting]
-  
   - [Requirements](#requirements)
   - [Functions](#content)
 
