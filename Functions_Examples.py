@@ -36,16 +36,6 @@ def handle_negval(df):
     df.apply(handle_negval_sub, axis=1)
     return df
 
-#check incorrect zero growth values in winter month: when growth is predicted, replace entry with entry before. This is done for DOY < 60 and DOY > 304.
-def cleanLabel(df):
-    indices = df.index[(df['DOY'] < 60)]
-    indices = indices.append(df.index[(df['DOY'] > 304)])
-    
-
-    # Loop through each index and replace the corresponding 'Label_DMwth' value
-    for index in indices:
-        df.loc[index, 'Label'] = df.loc[index - 1, 'Label']
-    return df
 
 #libraries
 import os
@@ -78,8 +68,7 @@ def create_df_csv(path, short=True):
 def cleanData(df, ZG = False):
     df_gaps = extractgaps(df)
     newdf = handle_negval(df)
-    if (ZG == True):
-        newdf = cleanLabel(newdf)
+    
     newdf = newdf.dropna()
     return newdf, df_gaps
 
